@@ -7,7 +7,7 @@ Each prompt is built from the same four parts:
 | Part | What it does | Look for |
 |---|---|---|
 | **Scope** | Tells Codex exactly what to look at or work on | "Inspect this project", "Plan Feature 1" |
-| **Source of truth** | Points Codex to the requirements instead of letting it guess | `feature-requests/5-1.md`, `$feature-sprint` |
+| **Source of truth** | Points Codex to the requirements instead of letting it guess | `feature-requests/search-filter.md`, `$feature-sprint` |
 | **Evidence** | Asks Codex to show its work so you can review it | "map each acceptance criterion to implementation and validation" |
 | **Guardrail** | Sets the line Codex can't cross yet | "Do not edit any files", "until I approve the plan" |
 
@@ -33,7 +33,7 @@ Inspect this project before making any changes. Explain the architecture, depend
 $feature-sprint Explain the workflow you will follow for a feature request in this project. Do not change files.
 ```
 
-- **Source of truth:** the `feature-sprint` skill in `.codex/skills/feature-sprint/SKILL.md`
+- **Source of truth:** the `feature-sprint` skill in `.agents/skills/feature-sprint/SKILL.md`
 - **Evidence:** Codex restates the workflow, so you can confirm it found the skill
 - **Guardrail:** "Do not change files"
 
@@ -42,11 +42,11 @@ $feature-sprint Explain the workflow you will follow for a feature request in th
 ## Video 4 — Plan Feature 1: search and filtering
 
 ```text
-$feature-sprint Use feature-requests/5-1.md to plan Feature 1. Inspect the current project and tests. Identify the smallest set of files to change, explain the data flow, and map each acceptance criterion to implementation and validation. Do not edit files until I approve the plan.
+$feature-sprint Use feature-requests/search-filter.md to plan Feature 1. Inspect the current project and tests. Identify the smallest set of files to change, explain the data flow, and map each acceptance criterion to implementation and validation. Do not edit files until I approve the plan.
 ```
 
 - **Scope:** Feature 1 only, with the smallest set of files
-- **Source of truth:** `feature-requests/5-1.md` plus the skill
+- **Source of truth:** `feature-requests/search-filter.md` plus the skill
 - **Evidence:** each acceptance criterion mapped to code and to a test
 - **Guardrail:** "Do not edit files until I approve the plan"
 
@@ -61,15 +61,15 @@ Revise the plan to include combined-filter behavior, the empty state, and tests 
 ## Video 7 — Plan Feature 2: dashboard metrics
 
 ```text
-$feature-sprint Analyze feature-requests/8-1.md against the current code after Feature 1. Plan the dashboard metrics feature, identify the existing filtered data that should drive it, and map the acceptance criteria to tests. Do not edit files until I approve the plan.
+$feature-sprint Analyze feature-requests/dashboard-metrics.md against the current code after Feature 1. Plan the dashboard metrics feature, identify the existing filtered data that should drive it, and map the acceptance criteria to tests. Do not edit files until I approve the plan.
 ```
 
 - **Scope:** the codebase as it is now, after Feature 1
-- **Source of truth:** `feature-requests/8-1.md` plus the skill
+- **Source of truth:** `feature-requests/dashboard-metrics.md` plus the skill
 - **Evidence:** names the filtered data that drives the metrics and maps criteria to tests
 - **Guardrail:** "Do not edit files until I approve the plan"
 
-Before you approve, check the integration point: the metrics must be calculated from `visibleTickets`, not the original `tickets` array.
+Before you approve, check the integration point: the six cards must be calculated from the filtered list the app already shows, not the original `tickets` array. The decorative `StatusRing` is the one panel that stays on the full data set.
 
 ---
 

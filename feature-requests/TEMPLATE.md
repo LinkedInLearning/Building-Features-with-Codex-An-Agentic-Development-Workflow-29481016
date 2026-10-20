@@ -1,37 +1,43 @@
-# Feature request: <feature name>
+# Feature Request: <feature name>
 
-Codex plans only as well as the request it's given. Fill in the four core parts. Leave a section out only on purpose.
+Codex plans only as well as the request it's given. Cover the four core parts. The headings match the two requests in this folder, plus a Limits section.
 
-## 1. The problem
+## Why
 
-Who is this for, and what can't they do today?
+**The problem.** Who is this for, and what can't they do today?
 
-> Example: Support agents scroll the full ticket list to find one customer's issue. With dozens of tickets, that's slow and easy to get wrong.
+> Example: Support agents have too many tickets to scroll through. They need to find the right ticket fast.
 
-## 2. Expected behavior
+## Requirements
 
-What should happen when this is done? Write each acceptance criterion so it can be tested.
+**The expected behavior.** Number each requirement and write it so a test can check it. Name exact labels, values, and text when they matter.
 
-- [ ] <criterion>
-- [ ] <criterion>
-- [ ] <criterion>
+1. **<short name>.** <what should happen>
+2. **<short name>.** <what should happen>
+3. **<short name>.** <what should happen>
 
-> Example: Search matches ticket title or customer name, ignoring capitalization.
+> Example: Label the search box `Search tickets`. It matches the ticket title or the requester name and ignores upper and lower case.
 
-## 3. Limits
+## Limits
 
-What's out of scope, and what must not change?
+**What's out of scope, and what must not change?**
 
-- Non-goals: <what this feature will not do>
-- Constraints: <no new dependencies, keep the existing architecture, etc.>
+- Not part of this request: <what this feature will not do>
+- Constraints: <no new libraries, keep the existing structure, etc.>
 - Must keep working: <existing behavior this change can't break>
 
-## 4. How we'll prove it works
+## Files to look at
 
-How will you and Codex verify each criterion?
+- `src/...`
+- `tests/...`
 
-- Tests: <what the automated tests must cover>
-- Manual check: <what you'll click through in the app>
+## Done when
+
+**How we'll prove it works.**
+
+- `npm test` passes for `tests/<your-test-file>`.
+- `npm run lint` and `npm run build` finish without errors.
+- <what you'll check by hand in the browser>
 
 ---
 
@@ -43,4 +49,4 @@ Write down anything that's still unclear, so Codex asks instead of guessing.
 
 ## On a real team, you'd also add
 
-Business context · design links · accessibility needs · dependencies · rollout notes · definition of done
+Business context · design links · accessibility needs · dependencies · rollout notes
