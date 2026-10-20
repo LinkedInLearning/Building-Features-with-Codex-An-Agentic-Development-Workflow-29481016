@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Building Features with Codex: An Agentic Development Workflow
+This is the repository for the LinkedIn Learning course `Building Features with Codex: An Agentic Development Workflow`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
 
