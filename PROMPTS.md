@@ -27,7 +27,7 @@ Inspect this project before making any changes. Explain the architecture, depend
 
 ---
 
-## Video 3 — Check the skill
+## Video 2 — Check the skill
 
 ```text
 $feature-sprint Explain the workflow you will follow for a feature request in this project. Do not change files.
@@ -39,7 +39,7 @@ $feature-sprint Explain the workflow you will follow for a feature request in th
 
 ---
 
-## Video 4 — Plan Feature 1: search and filtering
+## Video 3 — Plan Feature 1: search and filtering
 
 ```text
 $feature-sprint Use feature-requests/search-filter.md to plan Feature 1. Inspect the current project and tests. Identify the smallest set of files to change, explain the data flow, and map each acceptance criterion to implementation and validation. Do not edit files until I approve the plan.
@@ -58,7 +58,7 @@ Revise the plan to include combined-filter behavior, the empty state, and tests 
 
 ---
 
-## Video 7 — Plan Feature 2: dashboard metrics
+## Video 6 — Plan Feature 2: dashboard metrics
 
 ```text
 $feature-sprint Analyze feature-requests/dashboard-metrics.md against the current code after Feature 1. Plan the dashboard metrics feature, identify the existing filtered data that should drive it, and map the acceptance criteria to tests. Do not edit files until I approve the plan.
