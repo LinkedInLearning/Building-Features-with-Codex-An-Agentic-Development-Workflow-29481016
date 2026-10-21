@@ -15,7 +15,9 @@ Each prompt is built from the same four parts:
 
 ---
 
-## Video 1 — Map the codebase
+## Video 1: Meet Your AI Feature Sprint | Explore an Existing Codebase with Codex
+
+**Map the codebase**
 
 ```text
 Inspect this project before making any changes. Explain the architecture, dependencies, data flow, tests, and safest extension points for adding features. Identify the files I should understand first. Do not edit any files.
@@ -27,7 +29,9 @@ Inspect this project before making any changes. Explain the architecture, depend
 
 ---
 
-## Video 2 — Check the skill
+## Video 2: Build a Reusable Feature Sprint Agent with Codex
+
+**Check the skill**
 
 ```text
 $feature-sprint Explain the workflow you will follow for a feature request in this project. Do not change files.
@@ -39,7 +43,9 @@ $feature-sprint Explain the workflow you will follow for a feature request in th
 
 ---
 
-## Video 3 — Plan Feature 1: search and filtering
+## Video 3: Plan a Feature with Codex Before You Code
+
+**Plan Feature 1: search and filtering**
 
 ```text
 $feature-sprint Use feature-requests/search-filter.md to plan Feature 1. Inspect the current project and tests. Identify the smallest set of files to change, explain the data flow, and map each acceptance criterion to implementation and validation. Do not edit files until I approve the plan.
@@ -58,7 +64,9 @@ Revise the plan to include combined-filter behavior, the empty state, and tests 
 
 ---
 
-## Video 6 — Plan Feature 2: dashboard metrics
+## Video 6: Reuse Your Codex Agent for a New Feature
+
+**Plan Feature 2: dashboard metrics**
 
 ```text
 $feature-sprint Analyze feature-requests/dashboard-metrics.md against the current code after Feature 1. Plan the dashboard metrics feature, identify the existing filtered data that should drive it, and map the acceptance criteria to tests. Do not edit files until I approve the plan.
