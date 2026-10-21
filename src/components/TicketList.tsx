@@ -6,6 +6,14 @@ interface TicketListProps {
 }
 
 export default function TicketList({ tickets }: TicketListProps) {
+  if (tickets.length === 0) {
+    return (
+      <p className="empty" role="status">
+        No tickets match your filters.
+      </p>
+    )
+  }
+
   return (
     <ul className="ticket-list" aria-label="Tickets">
       {tickets.map((ticket) => (
