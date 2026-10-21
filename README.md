@@ -1,10 +1,39 @@
-# SupportFlow
+# Building Features with Codex: An Agentic Development Workflow
+This is the repository for the LinkedIn Learning course `Building Features with Codex: An Agentic Development Workflow`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-A small React and TypeScript app for triaging customer support tickets. It's the starter project for the **SupportFlow with Codex** course, where you run a feature sprint with OpenAI Codex: map the code, plan the change, build in small steps, test, and review.
+![lil-thumbnail-url]
 
-## Run it
+## Course Description
+
+SupportFlow is a small React and TypeScript app for triaging customer support tickets. In this course, you run a feature sprint with OpenAI Codex: map the code, plan the change, build in small steps, test, and review.
+
+## Branches
+
+| Branch | What it holds |
+|---|---|
+| `main` | The starter app. Use it for Chapters 1 to 3 and the first practice. |
+| `chapter-6` | Search and filtering are done. Dashboard metrics aren't built yet. |
+| `chapter-9` | The finished app. Both features work, and all tests pass. |
+
+You can use the branch pop-up menu in GitHub to switch branches, or add `/tree/BRANCH_NAME` to the URL.
+
+When switching branches after making changes to the files, you may get a message like this:
+
+    error: Your local changes to the following files would be overwritten by checkout:        [files]
+    Please commit your changes or stash them before you switch branches.
+    Aborting
+
+To resolve this issue:
+
+    Add changes to git using this command: git add .
+    Commit changes using this command: git commit -m "some message"
+
+## Installing
 
 You need Node 22.9 or newer.
+
+1. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+2. Install and run the app:
 
 ```bash
 npm install
@@ -19,7 +48,7 @@ npm run lint    # ESLint
 npm run build   # type check, then production build
 ```
 
-On a fresh copy, `npm test` shows **1 passing and 10 failing**. That's on purpose. The failing tests in `tests/filtering.test.tsx` describe Feature 1, and they pass once search and filtering are built.
+On `main`, `npm test` shows **1 passing and 10 failing**. That's on purpose. The failing tests in `tests/filtering.test.tsx` describe Feature 1, and they pass once search and filtering are built.
 
 ## What's in here
 
@@ -38,3 +67,17 @@ On a fresh copy, `npm test` shows **1 passing and 10 failing**. That's on purpos
 
 1. **Feature 1:** search and filtering ([`search-filter.md`](feature-requests/search-filter.md))
 2. **Feature 2:** dashboard metrics that follow the filters ([`dashboard-metrics.md`](feature-requests/dashboard-metrics.md))
+
+## Instructor
+
+Instructor name
+
+Instructor description
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+
+
+[0]: # (Replace these placeholder URLs with actual course URLs)
+
+[lil-course-url]: https://www.linkedin.com/learning/
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
