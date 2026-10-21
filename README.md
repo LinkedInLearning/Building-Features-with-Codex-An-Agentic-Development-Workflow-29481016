@@ -11,9 +11,9 @@ SupportFlow is a small React and TypeScript app for triaging customer support ti
 
 | Branch | What it holds |
 |---|---|
-| `main` | The starter app. Use it for Chapters 1 to 3 and the first practice. |
-| `chapter-6` | Search and filtering are done. Dashboard metrics aren't built yet. |
-| `chapter-9` | The finished app. Both features work, and all tests pass. |
+| `main` | Videos 1–5. The starter app. |
+| `chapter-6` | Videos 6–8. Search and filtering are done. Dashboard metrics aren't built yet. |
+| `chapter-9` | Video 9. The finished app. Both features work, and all tests pass. |
 
 You can use the branch pop-up menu in GitHub to switch branches, or add `/tree/BRANCH_NAME` to the URL.
 
