@@ -4,6 +4,14 @@ This is the repository for the LinkedIn Learning course `Building Features with 
 ![lil-thumbnail-url]
 
 ## Course Description
+AI coding agents can write code, but shipping reliable features requires a workflow that keeps you in control. In this course, Tiffany Teasley, shows you how to use OpenAI Codex to work through feature requests in an existing application. Learn how to inspect a codebase before making changes, turn requirements into an actionable plan, create a reusable skill for a consistent development process, map acceptance criteria to tests, and build features incrementally. Along the way, see how to reuse the same workflow as the codebase evolves, test features together, diagnose integration issues, and verify your changes without breaking existing functionality.
+
+## Learning Objectives
+- Inspect an existing codebase with Codex to identify its architecture, dependencies, data flow, tests, and safe extension points before making changes.
+- Create and reuse an agent skill that defines a consistent, spec-driven workflow for planning, building, testing, and verifying feature requests.
+- Use spec-driven development to translate feature requirements and acceptance criteria into a code-aware implementation and testing plan before coding begins.
+- Apply an incremental, test-driven workflow to implement features while preserving existing application behavior.
+- Verify integrated features with tests and identify issues that emerge when independently developed functionality works together.
 
 SupportFlow is a small React and TypeScript app for triaging customer support tickets. In this course, you run a feature sprint with OpenAI Codex: map the code, plan the change, build in small steps, test, and review.
 
