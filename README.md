@@ -77,11 +77,11 @@ On `main`, `npm test` shows **1 passing and 10 failing**. That's on purpose. The
 
 ## Instructor
 
-Instructor name
+Tiffany Teasley - Data Sistah | Data Scientist and AI Engineer
 
-Instructor description
+Tiffany helps aspiring data professionals go from invisible to hired. A full-time data scientist and AI engineer, she spent 20 years as a high school math teacher before making the leap into tech. She failed her first data science interview because no one taught her what companies actually needed. Instead of walking away, she taught herself the skills, built real projects, and came back to land the job. Today through Data Sistah, she's helping the next generation upskill into AI with real-world projects, targeted strategies, and personalized guidance to close the experience gap. A LinkedIn Top Voice in 2024 and 2025, her mission is simple. No developer left behind.
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/](https://www.linkedin.com/learning/instructors/tiffany-teasley?u=104)).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
