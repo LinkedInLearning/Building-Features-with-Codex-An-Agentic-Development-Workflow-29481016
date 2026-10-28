@@ -1,5 +1,5 @@
 # Building Features with Codex: An Agentic Development Workflow
-This is the repository for the LinkedIn Learning course `Building Features with Codex: An Agentic Development Workflow`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course `Building Features with Codex: An Agentic Development Workflow`. The full course is available from [LinkedIn Learning][https://www.linkedin.com/learning/building-features-with-codex-an-agentic-development-workflow/meet-your-ai-feature-sprint?u=104].
 
 ![lil-thumbnail-url]
 
@@ -79,5 +79,5 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/building-features-with-codex-an-agentic-development-workflow/meet-your-ai-feature-sprint?u=104
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQEWMIfCEXYTjg/learning-public-crop_675_1200/B56aF.n56vHcAc-/0/1793125753083?e=2147483647&v=beta&t=GyYbr84UXj2W9Ick0oYAwa0v-pSgnKGv_6W5FF67Tow
